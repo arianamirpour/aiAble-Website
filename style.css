@@ -80,7 +80,7 @@
     justify-content: space-evenly;
     align-items: center;
     width: 95%;
-    margin: auto;
+    margin: auto !important;
 }
 
 .landing img {
@@ -94,15 +94,21 @@
     color: #fff;
     font-family: Roboto;
     font-size: 62px;
+
 }
 
 .landing h1 span {
     color: #23CB9C;
 }
 
+.text-landing {
+    margin-bottom: 20px;
+}
+
 
 .button {
     display: flex;
+    cursor: pointer;
 }
 
 
@@ -142,6 +148,17 @@
     flex-direction: column;
 }
 
+.company {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+.company img {
+    width: 450px;
+    margin-top: 20px;
+}
+
 
 .items {
     width: 100%;
@@ -151,13 +168,15 @@
     font-family: Roboto;
     text-align: center;
     background-image:url(./images/Back2.png);
-    background-position: center -14em;
+    background-position: -5em -2em;
+    border-top: solid 1px #ffffff59;
 
 }
 
 .items p:first-child{
     font-weight: 300;
     font-size: 30px;
+    margin-top: 90px;
 }
 
 
@@ -195,7 +214,7 @@
     align-items: center; 
     border-radius: 27px;
     background: rgba(5, 2, 15, 0.40);
-    backdrop-filter: blur(17px);
+    backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.10);
     margin-right: 70px;
     
@@ -209,7 +228,7 @@
     align-items: center; 
     border-radius: 27px;
     background: rgba(5, 2, 15, 0.40);
-    backdrop-filter: blur(17px);
+    backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.10);
 
 }
@@ -221,7 +240,7 @@
     align-items: center; 
     border-radius: 27px;
     background: rgba(5, 2, 15, 0.40);
-    backdrop-filter: blur(17px);
+    backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.10);
     margin-left: 70px;
 
