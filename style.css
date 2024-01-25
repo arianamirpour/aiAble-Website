@@ -6,7 +6,7 @@
 }
 
 .first-section {
-    height: 120vh;
+    height: 90vh;
     width: 100%;
     background-color: #030014;
 }
@@ -156,12 +156,12 @@
 }
 
 .company img:first-child {
-    width: 300px;
+    width: 400px;
     margin-top: 20px;
 }
 
 .company img:last-child {
-    width: 230px;
+    width: 330px;
     margin-top: 20px;
 }
 
