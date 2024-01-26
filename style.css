@@ -177,8 +177,11 @@
     font-family: Roboto;
     text-align: center;
     background-image:url(./images/Back2.png);
-    background-position: -5em -2em;
+    background-position: center -4em;
+    background-repeat: no-repeat;
     border-top: solid 1px #ffffff89;
+    background-color: #030014;
+
     
 
 }
