@@ -138,6 +138,23 @@
 
     }
 
+    .aboutus h1 {
+        font-size: 2rem;
+    }
+
+    .aboutus {
+        background-position: center 5em;
+        background-size: 400px;
+        height: 135vh;
+    }
+
+    .aboutus p {
+        width: 95%;
+        justify-content: center;
+        font-size: 1rem;
+        line-height: 28px;
+    }
+
 }
 
 
